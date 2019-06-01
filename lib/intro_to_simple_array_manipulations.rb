@@ -24,5 +24,5 @@ end
 def using_concat(array1, array2)
   array1 = @my_favorite_things
   array2 = more_favs
-  array2.concat(array1)
+  array1.concat(array2)
 end
