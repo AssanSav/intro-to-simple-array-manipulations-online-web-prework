@@ -22,7 +22,7 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  arra1 = [@my_favorite_things]
-  
+  array1 = @my_favorite_things
+  array2 = more_favs
   array2.concat(array1)
 end
